@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#071a35" />
+    <meta name="description" content="Land Network — منصة استضافة بوتات Discord." />
+    <title>Land Network | Discord Bot Hosting</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div class="background-glow glow-a"></div><div class="background-glow glow-b"></div>
+    <header class="site-header shell">
+      <a class="brand" href="#" aria-label="Land Network home">
+        <span class="logo-mark"><span class="mark-l">L</span><span class="mark-n">N</span></span>
+        <span class="brand-copy"><b>LAND <em>NETWORK</em></b><small>DISCORD BOT HOSTING</small></span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="#features" data-i18n="navFeatures">المميزات</a>
+        <a href="#how" data-i18n="navHow">كيف تعمل؟</a>
+        <a href="#plans" data-i18n="navPlans">الباقات</a>
+      </nav>
+      <div class="header-actions">
+        <button class="lang-button" id="languageToggle" aria-label="Switch language"><span class="lang-globe">◎</span><span id="languageLabel">EN</span></button>
+        <a class="header-cta" href="#dashboard" data-i18n="navDashboard">لوحة التحكم <span>↗</span></a>
+      </div>
+      <button class="mobile-menu" id="mobileMenu" aria-label="Open menu">☰</button>
+    </header>
+
+    <main>
+      <section class="hero shell">
+        <div class="hero-copy">
+          <div class="eyebrow"><i class="status-dot"></i><span data-i18n="eyebrow">منصتك القادمة لاستضافة البوتات</span></div>
+          <h1 data-i18n-html="heroTitle">شغّل بوتك.<br><span>واترك الباقي علينا.</span></h1>
+          <p class="hero-description" data-i18n="heroDescription">مساحة واحدة لإدارة بوتات Discord، بواجهة عصرية وأدوات واضحة وتجربة مصممة للمطورين.</p>
+          <div class="hero-buttons">
+            <a class="button button-primary" href="#dashboard"><span data-i18n="heroPrimary">اكتشف المنصة</span><b>↙</b></a>
+            <a class="button button-ghost" href="#features" data-i18n="heroSecondary">استكشف المميزات</a>
+          </div>
+          <div class="hero-note"><span class="note-icon">✦</span><div><b data-i18n="heroNoteTitle">بداية ذكية لمشروعك</b><small data-i18n="heroNoteText">واجهة جاهزة اليوم، وقابلة للتوسع غدًا.</small></div></div>
+        </div>
+        <div class="hero-art">
+          <div class="decor-ring ring-one"></div><div class="decor-ring ring-two"></div>
+          <div class="floating-card float-status"><span class="float-icon">✓</span><div><b data-i18n="floatStatusTitle">تحكم مركزي</b><small data-i18n="floatStatusText">كل مشاريعك في مكان واحد</small></div></div>
+          <div class="panel-preview">
+            <div class="preview-top"><div class="window-controls"><i></i><i></i><i></i></div><span>LAND NETWORK / PANEL</span><b>•••</b></div>
+            <div class="preview-layout">
+              <aside class="preview-sidebar"><div class="sidebar-logo">L<span>N</span></div><div class="sidebar-icon selected">▦</div><div class="sidebar-icon">⌘</div><div class="sidebar-icon">◈</div><div class="sidebar-icon">⚙</div></aside>
+              <div class="preview-main">
+                <div class="preview-welcome"><small data-i18n="previewWorkspace">مساحة العمل</small><b data-i18n="previewWelcome">مرحبًا بك 👋</b></div>
+                <div class="preview-stats">
+                  <div class="preview-stat"><small data-i18n="previewBots">البوتات</small><b>—</b><em data-i18n="previewWaiting">بانتظار الربط</em></div>
+                  <div class="preview-stat"><small data-i18n="previewStatus">حالة المنصة</small><b class="cyan" data-i18n="previewPrototype">تجريبية</b><em data-i18n="previewReady">الواجهة الأولية جاهزة</em></div>
+                </div>
+                <div class="preview-list-head"><b data-i18n="previewProjects">مشاريعك</b><span data-i18n="previewViewAll">عرض الكل ↗</span></div>
+                <div class="project-row"><div class="project-avatar">⌘</div><div class="project-info"><b>My Discord Bot</b><small>Node.js · Demo project</small></div><span class="project-status"><i></i><span data-i18n="previewUnlinked">غير مربوط</span></span></div>
+                <div class="project-row"><div class="project-avatar add">＋</div><div class="project-info"><b data-i18n="previewNewProject">مشروع جديد</b><small data-i18n="previewConnectServer">أضف مشروعك بعد ربط الخادم</small></div><span class="project-arrow">↙</span></div>
+                <div class="resource-label"><span data-i18n="previewResources">استهلاك الموارد</span><small data-i18n="previewLater">سيظهر بعد الربط</small></div><div class="resource-track"><i></i></div>
+              </div>
+            </div>
+          </div>
+          <div class="floating-card float-brand"><span class="brand-orb">LN</span><div><b>LAND NETWORK</b><small>Host your next idea.</small></div></div>
+        </div>
+        <div class="hero-foot"><span>01</span><i></i><span data-i18n="heroFootOne">إدارة البوتات</span><i></i><span data-i18n="heroFootTwo">تجربة بسيطة</span><i></i><span data-i18n="heroFootThree">جاهزة للتوسع</span></div>
+      </section>
+
+      <section class="trust-band"><div class="shell trust-content"><span data-i18n="trustIntro">مصممة لتناسب مشاريعك</span><b><i>⌘</i> DISCORD BOTS</b><b><i>◈</i> NODE.JS</b><b><i>↗</i> SIMPLE CONTROL</b><b><i>✦</i> BUILT TO SCALE</b></div></section>
+
+      <section class="section shell" id="features">
+        <div class="section-heading"><div class="eyebrow">WHY LAND NETWORK</div><h2 data-i18n-html="featuresTitle">كل أدواتك في مكان واحد.<br><span>بلا تعقيد.</span></h2><p data-i18n="featuresDescription">نجهز تجربة إدارة مرتبة، ونبني أساسًا يمكن تطويره مع نمو استضافتك.</p></div>
+        <div class="features-grid">
+          <article class="feature-card"><div class="feature-icon">⌘</div><div class="feature-kicker">01 / CONTROL</div><h3 data-i18n="featureOneTitle">لوحة تحكم واضحة</h3><p data-i18n="featureOneText">تابع مشاريعك وأدوات إدارتها من واجهة بسيطة وسهلة الاستخدام.</p><div class="card-accent"></div></article>
+          <article class="feature-card feature-highlight"><div class="feature-icon">↗</div><div class="feature-kicker">02 / PROJECTS</div><h3 data-i18n="featureTwoTitle">إدارة ملفات البوتات</h3><p data-i18n="featureTwoText">مكان مخصص لرفع ملفات مشاريعك وتجهيزها للربط مع الخادم لاحقًا.</p><div class="card-accent"></div></article>
+          <article class="feature-card"><div class="feature-icon">⌁</div><div class="feature-kicker">03 / MONITOR</div><h3 data-i18n="featureThreeTitle">متابعة التشغيل</h3><p data-i18n="featureThreeText">مساحة مستقبلية للحالة والسجلات واستهلاك الموارد لكل مشروع.</p><div class="card-accent"></div></article>
+        </div>
+      </section>
+
+      <section class="how-band" id="how"><div class="shell how-grid"><div class="section-heading"><div class="eyebrow">HOW IT WORKS</div><h2 data-i18n-html="howTitle">خطوة بخطوة.<br><span>على راحتك.</span></h2><p data-i18n="howDescription">نبدأ بتجهيز الموقع، ثم نفعّل الوظائف الحقيقية بعد توفير خادم التشغيل.</p><a class="inline-link" href="#dashboard"><span data-i18n="howLink">اكتشف لوحة التحكم</span> <b>↙</b></a></div>
+        <div class="steps-list">
+          <div class="step"><span class="step-number">01</span><div><h3 data-i18n="stepOneTitle">جهّز مساحة العمل</h3><p data-i18n="stepOneText">واجهة أولية لصفحات الحساب والمشاريع.</p></div><span class="step-tag" data-i18n="tagDesign">تصميم</span></div>
+          <div class="step"><span class="step-number">02</span><div><h3 data-i18n="stepTwoTitle">أضف مشاريعك</h3><p data-i18n="stepTwoText">نجهز صفحات الرفع والإدارة ضمن الواجهة.</p></div><span class="step-tag" data-i18n="tagDesign">تصميم</span></div>
+          <div class="step"><span class="step-number">03</span><div><h3 data-i18n="stepThreeTitle">اربط خادم التشغيل</h3><p data-i18n="stepThreeText">نربط الموقع بخادم آمن لتشغيل البوتات فعليًا.</p></div><span class="step-tag tag-later" data-i18n="tagLater">لاحقًا</span></div>
+        </div></div></section>
+
+      <section class="section shell plans-section" id="plans"><div class="section-heading centered"><div class="eyebrow">PLANS & PRICING</div><h2 data-i18n-html="plansTitle">بداية بسيطة.<br><span>وتوسع وقت ما تبي.</span></h2><p data-i18n="plansDescription">صفحة الباقات جاهزة مبدئيًا؛ الأسعار والتسجيل غير مفعّلين في هذه النسخة.</p></div>
+        <div class="plan-box"><div class="plan-top"><div><span class="coming-label" data-i18n="comingSoon">قريبًا</span><h3>Land Starter</h3><p data-i18n="planSubtitle">البداية المناسبة لتجربة المنصة</p></div><div class="plan-price" data-i18n="planPrice">سيُعلن لاحقًا<small></small></div></div><div class="plan-divider"></div><div class="plan-perks"><span data-i18n="planFeatureOne">✓ لوحة تحكم مخصصة</span><span data-i18n="planFeatureTwo">✓ إدارة مشاريع البوتات</span><span data-i18n="planFeatureThree">✓ ربط التشغيل لاحقًا</span></div><a class="button button-ghost full-button" href="#dashboard" data-i18n="planButton">استكشف الواجهة</a></div>
+      </section>
+
+      <section class="final-cta shell" id="dashboard"><div class="cta-light"></div><div class="cta-copy"><div class="eyebrow"><i class="status-dot"></i> LAND NETWORK / COMING TO LIFE</div><h2 data-i18n-html="ctaTitle">فكرتك تستحق<br><span>بداية قوية.</span></h2><p data-i18n="ctaDescription">هذه نسخة تصميم أولية. تسجيل الحسابات وتشغيل البوتات يحتاجان إلى ربط الخادم والأنظمة الخلفية.</p><button class="button button-primary" id="interestButton"><span data-i18n="ctaButton">أنا مهتم</span><b>↙</b></button><div id="interestMessage" class="interest-message" aria-live="polite"></div></div><div class="cta-logo" aria-hidden="true"><span>LN</span><i></i><i></i><i></i></div></section>
+    </main>
+
+    <footer class="site-footer shell"><a class="brand footer-brand" href="#"><span class="logo-mark"><span class="mark-l">L</span><span class="mark-n">N</span></span><span class="brand-copy"><b>LAND <em>NETWORK</em></b><small>DISCORD BOT HOSTING</small></span></a><span data-i18n="footerCopyright">© 2026 Land Network. جميع الحقوق محفوظة.</span><a href="#" id="backToTop" data-i18n="backToTop">للأعلى ↑</a></footer>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
